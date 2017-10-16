@@ -4,7 +4,7 @@
 #include <iostream>
 
 Neurone::Neurone()
-:potential(0.0), nb_spikes(0.0), time(0)
+:potential(0.0), nb_spikes(0.0), time(0), spike_buffer(0)
 {}
 
 double Neurone::getPotential() const
@@ -51,22 +51,29 @@ void Neurone::addSpikeTime(int simtime)
 	times_spikes.push_back(simtime);
 }
 
-void Neurone::update(/*int dt*/ double I_ext)
+bool Neurone::update(/*int dt*/ double I_ext)
 {
-	//bool spike(false);
+	bool spike(false);
 	if(potential >= Vth)
 	{
 		addSpikeTime(time);
-		//spike = true;
+		spike = true;
 	}
 	
 	if(isRefractory(/*time*/))
 		setPotential(0.0);
 	else
-		potential = exp(-h/tau)*potential + I_ext*membrane_resistance*(1-exp(-h/tau));
+		potential = exp(-h/tau)*potential + I_ext*membrane_resistance*(1-exp(-h/tau)) + spike_buffer;
 	
 	time = time+dt;
-	//return spike;
+	spike_buffer=0;  //????
+	return spike;
+}
+
+
+void Neurone::setSpikeBuffer(int a)
+{
+	spike_buffer=a;
 }
 
 void Neurone::affiche()

@@ -26,13 +26,16 @@ class Neurone
 		//void setRefractory(bool);
 		
 		//Change etat du neurone
-		void update(/* int dt*/ double I_ext);
+		bool update(/* int dt*/ double I_ext);
 		
 		bool isRefractory();
 		
 		void addSpikeTime(int);
 		
 		void affiche();
+		
+		
+		void setSpikeBuffer(int a);
 		
 		//~Neurone();
 	
@@ -42,6 +45,7 @@ class Neurone
 		std::vector<int> times_spikes;
 		//bool refractory;
 		double time;
+		int spike_buffer; 		//change for ring buffer after
 };
 
 #endif

@@ -1,0 +1,3 @@
+/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/neuro.dir
+/home/localguest/Desktop/Neurons_part2/build/googletest/CMakeFiles/gtest.dir
+/home/localguest/Desktop/Neurons_part2/build/googletest/CMakeFiles/gtest_main.dir

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/localguest/Desktop/Neuron_prog/One_Neuron/constantes.hpp
+
+/home/localguest/Desktop/Neuron_prog/One_Neuron/main_neurone.cpp
+neurone.hpp
+/home/localguest/Desktop/Neuron_prog/One_Neuron/neurone.hpp
+iostream
+-
+constantes.hpp
+/home/localguest/Desktop/Neuron_prog/One_Neuron/constantes.hpp
+fstream
+-
+
+/home/localguest/Desktop/Neuron_prog/One_Neuron/neurone.cpp
+neurone.hpp
+/home/localguest/Desktop/Neuron_prog/One_Neuron/neurone.hpp
+constantes.hpp
+/home/localguest/Desktop/Neuron_prog/One_Neuron/constantes.hpp
+cmath
+-
+iostream
+-
+
+/home/localguest/Desktop/Neuron_prog/One_Neuron/neurone.hpp
+vector
+-
+

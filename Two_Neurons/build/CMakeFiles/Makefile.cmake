@@ -119,6 +119,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/neuro_unittest.dir/DependInfo.cmake"
   "CMakeFiles/neuro.dir/DependInfo.cmake"
   "googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"

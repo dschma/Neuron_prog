@@ -35,10 +35,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/localguest/Desktop/Neurons_part2
+CMAKE_SOURCE_DIR = /home/localguest/Desktop/Neuron_prog/Two_Neurons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/localguest/Desktop/Neurons_part2/build
+CMAKE_BINARY_DIR = /home/localguest/Desktop/Neuron_prog/Two_Neurons/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/neuro.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/neuro.dir/flags.make
 
 CMakeFiles/neuro.dir/neurone.cpp.o: CMakeFiles/neuro.dir/flags.make
 CMakeFiles/neuro.dir/neurone.cpp.o: ../neurone.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neuro.dir/neurone.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuro.dir/neurone.cpp.o -c /home/localguest/Desktop/Neurons_part2/neurone.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuro.dir/neurone.cpp.o -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.cpp
 
 CMakeFiles/neuro.dir/neurone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuro.dir/neurone.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/localguest/Desktop/Neurons_part2/neurone.cpp > CMakeFiles/neuro.dir/neurone.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.cpp > CMakeFiles/neuro.dir/neurone.cpp.i
 
 CMakeFiles/neuro.dir/neurone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuro.dir/neurone.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/localguest/Desktop/Neurons_part2/neurone.cpp -o CMakeFiles/neuro.dir/neurone.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.cpp -o CMakeFiles/neuro.dir/neurone.cpp.s
 
 CMakeFiles/neuro.dir/neurone.cpp.o.requires:
 .PHONY : CMakeFiles/neuro.dir/neurone.cpp.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/neuro.dir/neurone.cpp.o.provides.build: CMakeFiles/neuro.dir/neurone.
 
 CMakeFiles/neuro.dir/main_neurone.cpp.o: CMakeFiles/neuro.dir/flags.make
 CMakeFiles/neuro.dir/main_neurone.cpp.o: ../main_neurone.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/neuro.dir/main_neurone.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuro.dir/main_neurone.cpp.o -c /home/localguest/Desktop/Neurons_part2/main_neurone.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/neuro.dir/main_neurone.cpp.o -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/main_neurone.cpp
 
 CMakeFiles/neuro.dir/main_neurone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neuro.dir/main_neurone.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/localguest/Desktop/Neurons_part2/main_neurone.cpp > CMakeFiles/neuro.dir/main_neurone.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/localguest/Desktop/Neuron_prog/Two_Neurons/main_neurone.cpp > CMakeFiles/neuro.dir/main_neurone.cpp.i
 
 CMakeFiles/neuro.dir/main_neurone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neuro.dir/main_neurone.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/localguest/Desktop/Neurons_part2/main_neurone.cpp -o CMakeFiles/neuro.dir/main_neurone.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/localguest/Desktop/Neuron_prog/Two_Neurons/main_neurone.cpp -o CMakeFiles/neuro.dir/main_neurone.cpp.s
 
 CMakeFiles/neuro.dir/main_neurone.cpp.o.requires:
 .PHONY : CMakeFiles/neuro.dir/main_neurone.cpp.o.requires
@@ -123,6 +123,6 @@ CMakeFiles/neuro.dir/clean:
 .PHONY : CMakeFiles/neuro.dir/clean
 
 CMakeFiles/neuro.dir/depend:
-	cd /home/localguest/Desktop/Neurons_part2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/localguest/Desktop/Neurons_part2 /home/localguest/Desktop/Neurons_part2 /home/localguest/Desktop/Neurons_part2/build /home/localguest/Desktop/Neurons_part2/build /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/neuro.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/localguest/Desktop/Neuron_prog/Two_Neurons/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/localguest/Desktop/Neuron_prog/Two_Neurons /home/localguest/Desktop/Neuron_prog/Two_Neurons /home/localguest/Desktop/Neuron_prog/Two_Neurons/build /home/localguest/Desktop/Neuron_prog/Two_Neurons/build /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/neuro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/neuro.dir/depend
 

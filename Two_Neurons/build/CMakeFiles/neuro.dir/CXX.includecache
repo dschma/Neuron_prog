@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/localguest/Desktop/Neurons_part2/constantes.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/constantes.hpp
 
-/home/localguest/Desktop/Neurons_part2/main_neurone.cpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/main_neurone.cpp
 neurone.hpp
-/home/localguest/Desktop/Neurons_part2/neurone.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.hpp
 iostream
 -
 constantes.hpp
-/home/localguest/Desktop/Neurons_part2/constantes.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/constantes.hpp
 fstream
 -
 network.hpp
-/home/localguest/Desktop/Neurons_part2/network.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/network.hpp
 cassert
 -
 
-/home/localguest/Desktop/Neurons_part2/network.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/network.hpp
 neurone.hpp
-/home/localguest/Desktop/Neurons_part2/neurone.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.hpp
 
-/home/localguest/Desktop/Neurons_part2/neurone.cpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.cpp
 neurone.hpp
-/home/localguest/Desktop/Neurons_part2/neurone.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.hpp
 constantes.hpp
-/home/localguest/Desktop/Neurons_part2/constantes.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/constantes.hpp
 cmath
 -
 iostream
@@ -38,11 +38,11 @@ iostream
 cassert
 -
 
-/home/localguest/Desktop/Neurons_part2/neurone.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.hpp
 vector
 -
 cmath
 -
 constantes.hpp
-/home/localguest/Desktop/Neurons_part2/constantes.hpp
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/constantes.hpp
 

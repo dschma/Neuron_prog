@@ -7,18 +7,18 @@
 Neurone::Neurone()
 :potential(0.0), 
 nb_spikes(0.0), 
-time(0), 
+my_time(0), 
+I_ext(0.0),
 spike_buffer({0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0})
 {}
 
 Neurone::~Neurone()
 {
-	for( auto& neurone : post)
+	for( auto& neurone : target_neurons)
 	{
-		delete neurone;
 		neurone = nullptr;
 	}
-	post.clear();
+	target_neurons.clear();
 }
 
 double Neurone::getPotential() const
@@ -31,22 +31,34 @@ unsigned int Neurone::getNbSpikes() const
 	return nb_spikes;
 }
 
+int Neurone::get_I_ext() const
+{
+	return I_ext;
+}
+
 void Neurone::setPotential(double p) 
 {
 	potential = p;
 }
 
+void Neurone::set_ext_I(const double& I)
+{
+	I_ext = I;
+}
+
 int Neurone::getLastSpikeTime() const
 {
 	int spike_size(times_spikes.size());
-	return times_spikes[spike_size-1];
+	if(spike_size >=1)
+		return times_spikes[spike_size-1];
+	return -1;
 }
 
-bool Neurone::isRefractory(/*int simtime*/)
+bool Neurone::isRefractory()
 {
-	if(times_spikes.size() == 0)
+	if(times_spikes.empty())
 		return false;
-	if(time - getLastSpikeTime() < refractory_time)
+	if(my_time - getLastSpikeTime() < refractory_time)
 		return true;
 	return false;
 }
@@ -56,54 +68,56 @@ void Neurone::addSpikeTime(int simtime)
 	times_spikes.push_back(simtime);
 }
 
-bool Neurone::update(/*int dt*/ double I_ext)
+bool Neurone::update(int nb_steps)
 {
+	int steps(0);
 	bool spike(false);
-	double S(spike_buffer[time%(spike_buffer.size())]);
-	if(potential >= Vth)
+	while(steps < nb_steps)
 	{
-		addSpikeTime(time);
-		spike = true;
-	}
+		double S(spike_buffer[my_time%(D+1)]);
 	
-	if(isRefractory(/*time*/))
-	{
-		setPotential(0.0);
-		std::cout << "refrac " << std::endl;
-	}
-	else
-		potential = c1*potential + I_ext*c2 + S;
+		if(potential>=Vth)
+		{
+			addSpikeTime(my_time);
+			nb_spikes++;
+			spike = true;
+		}
 	
-	//std::cout << potential << std::endl;
-	spike_buffer[time%(spike_buffer.size()+1)] = 0;
-	time = time+dt;
+		if(isRefractory())
+		{
+			setPotential(0.0);
+		}
+		else
+		{
+			potential = c1*potential + I_ext*c2 + S;
+		}
+	
+		spike_buffer[my_time%(D+1)] = 0;
+		my_time += dt;
+		steps +=1;
+	}
 	return spike;
 }
 
-/*
-void Neurone::setSpikeBuffer(int a)
+void Neurone::receive_spike(unsigned int time_arrival, double j)
 {
-	spike_buffer=a;
-}*/
-
-void Neurone::receive_spike(int t, double j)
-{
-	unsigned int idx(t%spike_buffer.size());
-	assert(idx<spike_buffer.size());
-	spike_buffer[idx] += j;
+	size_t idx(time_arrival%(D+1));
+	assert(idx < spike_buffer.size());
+	spike_buffer[idx]+=j;
 }
 
 void Neurone::addConnection(Neurone* n)
 {
-	post.push_back(n);
+	target_neurons.push_back(n);
 }
 
 void Neurone::pass_spike(int& t)
 {
-	for(auto& neuron_connect : post)
+	for(auto& neuron_connect : target_neurons)
 	{
-		neuron_connect->receive_spike(t+delay, J);
+		neuron_connect->receive_spike(t+D, J);
 	}
+	
 }
 
 void Neurone::affiche()

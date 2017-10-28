@@ -540,21 +540,21 @@ sys/types.h
 src/gtest-internal-inl.h
 ../googletest/src/src/gtest-internal-inl.h
 
-/home/localguest/Desktop/Neurons_part2/googletest/src/gtest-all.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/gtest-all.cc
 gtest/gtest.h
-/home/localguest/Desktop/Neurons_part2/googletest/src/gtest/gtest.h
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/gtest/gtest.h
 src/gtest.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest-death-test.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest-filepath.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest-port.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest-printers.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest-test-part.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/localguest/Desktop/Neurons_part2/googletest/src/src/gtest-typed-test.cc
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest/src/src/gtest-typed-test.cc
 

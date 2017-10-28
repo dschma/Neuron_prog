@@ -42,10 +42,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/localguest/Desktop/Neurons_part2
+CMAKE_SOURCE_DIR = /home/localguest/Desktop/Neuron_prog/Two_Neurons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/localguest/Desktop/Neurons_part2/build
+CMAKE_BINARY_DIR = /home/localguest/Desktop/Neuron_prog/Two_Neurons/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,9 +82,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ neuro: cmake_check_build_system
 neuro/fast:
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/build
 .PHONY : neuro/fast
+
+#=============================================================================
+# Target rules for targets named neuro_unittest
+
+# Build rule for target.
+neuro_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 neuro_unittest
+.PHONY : neuro_unittest
+
+# fast build rule for target.
+neuro_unittest/fast:
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/build
+.PHONY : neuro_unittest/fast
 
 #=============================================================================
 # Target rules for targets named gtest
@@ -174,12 +187,37 @@ main_neurone.cpp.s:
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/main_neurone.cpp.s
 .PHONY : main_neurone.cpp.s
 
+neuronTest.o: neuronTest.cpp.o
+.PHONY : neuronTest.o
+
+# target to build an object file
+neuronTest.cpp.o:
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/neuronTest.cpp.o
+.PHONY : neuronTest.cpp.o
+
+neuronTest.i: neuronTest.cpp.i
+.PHONY : neuronTest.i
+
+# target to preprocess a source file
+neuronTest.cpp.i:
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/neuronTest.cpp.i
+.PHONY : neuronTest.cpp.i
+
+neuronTest.s: neuronTest.cpp.s
+.PHONY : neuronTest.s
+
+# target to generate assembly for a file
+neuronTest.cpp.s:
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/neuronTest.cpp.s
+.PHONY : neuronTest.cpp.s
+
 neurone.o: neurone.cpp.o
 .PHONY : neurone.o
 
 # target to build an object file
 neurone.cpp.o:
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/neurone.cpp.o
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/neurone.cpp.o
 .PHONY : neurone.cpp.o
 
 neurone.i: neurone.cpp.i
@@ -188,6 +226,7 @@ neurone.i: neurone.cpp.i
 # target to preprocess a source file
 neurone.cpp.i:
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/neurone.cpp.i
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/neurone.cpp.i
 .PHONY : neurone.cpp.i
 
 neurone.s: neurone.cpp.s
@@ -196,6 +235,7 @@ neurone.s: neurone.cpp.s
 # target to generate assembly for a file
 neurone.cpp.s:
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/neurone.cpp.s
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/neurone.cpp.s
 .PHONY : neurone.cpp.s
 
 # Help Target
@@ -206,6 +246,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... neuro_unittest"
 	@echo "... neuro"
 	@echo "... test"
 	@echo "... gtest"
@@ -213,6 +254,9 @@ help:
 	@echo "... main_neurone.o"
 	@echo "... main_neurone.i"
 	@echo "... main_neurone.s"
+	@echo "... neuronTest.o"
+	@echo "... neuronTest.i"
+	@echo "... neuronTest.s"
 	@echo "... neurone.o"
 	@echo "... neurone.i"
 	@echo "... neurone.s"

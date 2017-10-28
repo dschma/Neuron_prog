@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/localguest/Desktop/Neurons_part2/main_neurone.cpp" "/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/neuro.dir/main_neurone.cpp.o"
-  "/home/localguest/Desktop/Neurons_part2/neurone.cpp" "/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/neuro.dir/neurone.cpp.o"
+  "/home/localguest/Desktop/Neuron_prog/Two_Neurons/main_neurone.cpp" "/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/neuro.dir/main_neurone.cpp.o"
+  "/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.cpp" "/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/neuro.dir/neurone.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

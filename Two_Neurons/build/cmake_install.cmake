@@ -1,4 +1,4 @@
-# Install script for directory: /home/localguest/Desktop/Neurons_part2
+# Install script for directory: /home/localguest/Desktop/Neuron_prog/Two_Neurons
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/localguest/Desktop/Neurons_part2/build/googletest/cmake_install.cmake")
+  include("/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/googletest/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/localguest/Desktop/Neurons_part2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

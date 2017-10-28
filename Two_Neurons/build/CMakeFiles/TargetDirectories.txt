@@ -1,3 +1,4 @@
-/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/neuro.dir
-/home/localguest/Desktop/Neurons_part2/build/googletest/CMakeFiles/gtest.dir
-/home/localguest/Desktop/Neurons_part2/build/googletest/CMakeFiles/gtest_main.dir
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/neuro_unittest.dir
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/neuro.dir
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/googletest/CMakeFiles/gtest.dir
+/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/googletest/CMakeFiles/gtest_main.dir

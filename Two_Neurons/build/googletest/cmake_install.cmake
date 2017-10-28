@@ -1,4 +1,4 @@
-# Install script for directory: /home/localguest/Desktop/Neurons_part2/googletest
+# Install script for directory: /home/localguest/Desktop/Neuron_prog/Two_Neurons/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

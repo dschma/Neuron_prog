@@ -47,10 +47,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/localguest/Desktop/Neurons_part2
+CMAKE_SOURCE_DIR = /home/localguest/Desktop/Neuron_prog/Two_Neurons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/localguest/Desktop/Neurons_part2/build
+CMAKE_BINARY_DIR = /home/localguest/Desktop/Neuron_prog/Two_Neurons/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/neuro.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/localguest/Desktop/Neurons_part2/build
 CMakeFiles/neuro.dir/all:
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/depend
 	$(MAKE) -f CMakeFiles/neuro.dir/build.make CMakeFiles/neuro.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles  3 4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles  3 4
 	@echo "Built target neuro"
 .PHONY : CMakeFiles/neuro.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/neuro.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/neuro.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neuro.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 0
 .PHONY : CMakeFiles/neuro.dir/rule
 
 # Convenience name for target.
@@ -85,6 +85,42 @@ CMakeFiles/neuro.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/neuro.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/neuro_unittest.dir
+
+# All Build rule for target.
+CMakeFiles/neuro_unittest.dir/all: googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/neuro_unittest.dir/all: googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/depend
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles  5 6
+	@echo "Built target neuro_unittest"
+.PHONY : CMakeFiles/neuro_unittest.dir/all
+
+# Include target in all.
+all: CMakeFiles/neuro_unittest.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/neuro_unittest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/neuro_unittest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 0
+.PHONY : CMakeFiles/neuro_unittest.dir/rule
+
+# Convenience name for target.
+neuro_unittest: CMakeFiles/neuro_unittest.dir/rule
+.PHONY : neuro_unittest
+
+# clean rule for target.
+CMakeFiles/neuro_unittest.dir/clean:
+	$(MAKE) -f CMakeFiles/neuro_unittest.dir/build.make CMakeFiles/neuro_unittest.dir/clean
+.PHONY : CMakeFiles/neuro_unittest.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/neuro_unittest.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -111,7 +147,7 @@ googletest/preinstall:
 googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f googletest/CMakeFiles/gtest.dir/build.make googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f googletest/CMakeFiles/gtest.dir/build.make googletest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles  1
 	@echo "Built target gtest"
 .PHONY : googletest/CMakeFiles/gtest.dir/all
 
@@ -121,9 +157,9 @@ all: googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 0
 .PHONY : googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -146,7 +182,7 @@ clean: googletest/CMakeFiles/gtest.dir/clean
 googletest/CMakeFiles/gtest_main.dir/all: googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googletest/CMakeFiles/gtest_main.dir/build.make googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f googletest/CMakeFiles/gtest_main.dir/build.make googletest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles  2
 	@echo "Built target gtest_main"
 .PHONY : googletest/CMakeFiles/gtest_main.dir/all
 
@@ -156,9 +192,9 @@ all: googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neurons_part2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles 0
 .PHONY : googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/3.2.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/3.2.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/3.2.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/3.2.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3704518292/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3704518292.dir/build.make CMakeFiles/cmTryCompileExec3704518292.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3704518292.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3704518292.dir/testCCompiler.c.o   -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec3704518292
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3704518292.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3704518292.dir/testCCompiler.c.o  -o cmTryCompileExec3704518292 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1897938835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1897938835.dir/build.make CMakeFiles/cmTryCompileExec1897938835.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1897938835.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1897938835.dir/testCCompiler.c.o   -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1897938835
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1897938835.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1897938835.dir/testCCompiler.c.o  -o cmTryCompileExec1897938835 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2532984729/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2532984729.dir/build.make CMakeFiles/cmTryCompileExec2532984729.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2532984729
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532984729.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2532984729 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3469731808/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3469731808.dir/build.make CMakeFiles/cmTryCompileExec3469731808.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3469731808
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3469731808.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3469731808 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2532984729' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2532984729 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3469731808' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3469731808 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2532984729/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2532984729.dir/build.make CMakeFiles/cmTryCompileExec2532984729.dir/build]
-  ignore line: [make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2532984729]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532984729.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2532984729 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3469731808/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3469731808.dir/build.make CMakeFiles/cmTryCompileExec3469731808.dir/build]
+  ignore line: [make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3469731808]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3469731808.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3469731808 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2532984729' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2532984729 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3469731808' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3469731808 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2532984729] ==> ignore
+    arg [cmTryCompileExec3469731808] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec2532984729.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3469731808.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -147,18 +147,18 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3905691810/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3905691810.dir/build.make CMakeFiles/cmTryCompileExec3905691810.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3905691810.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3905691810.dir/feature_tests.c.o   -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3905691810
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3905691810.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3905691810.dir/feature_tests.c.o  -o cmTryCompileExec3905691810 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec328321384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec328321384.dir/build.make CMakeFiles/cmTryCompileExec328321384.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec328321384.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec328321384.dir/feature_tests.c.o   -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec328321384
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec328321384.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec328321384.dir/feature_tests.c.o  -o cmTryCompileExec328321384 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -168,18 +168,18 @@ make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFi
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec740039365/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec740039365.dir/build.make CMakeFiles/cmTryCompileExec740039365.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec740039365.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec740039365.dir/feature_tests.c.o   -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec740039365
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec740039365.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec740039365.dir/feature_tests.c.o  -o cmTryCompileExec740039365 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1214258034/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1214258034.dir/build.make CMakeFiles/cmTryCompileExec1214258034.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1214258034.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1214258034.dir/feature_tests.c.o   -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1214258034
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1214258034.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1214258034.dir/feature_tests.c.o  -o cmTryCompileExec1214258034 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -189,18 +189,18 @@ make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFi
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3711787784/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3711787784.dir/build.make CMakeFiles/cmTryCompileExec3711787784.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3711787784.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec3711787784.dir/feature_tests.c.o   -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3711787784
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3711787784.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3711787784.dir/feature_tests.c.o  -o cmTryCompileExec3711787784 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4219147336/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4219147336.dir/build.make CMakeFiles/cmTryCompileExec4219147336.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4219147336.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec4219147336.dir/feature_tests.c.o   -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4219147336
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4219147336.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4219147336.dir/feature_tests.c.o  -o cmTryCompileExec4219147336 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -208,32 +208,32 @@ make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFi
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3185703695/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3185703695.dir/build.make CMakeFiles/cmTryCompileExec3185703695.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3185703695.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3185703695.dir/testCXXCompiler.cxx.o -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec3185703695
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3185703695.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec3185703695.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3185703695 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2349519721/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2349519721.dir/build.make CMakeFiles/cmTryCompileExec2349519721.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2349519721.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2349519721.dir/testCXXCompiler.cxx.o -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2349519721
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2349519721.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2349519721.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2349519721 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec302916575/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec302916575.dir/build.make CMakeFiles/cmTryCompileExec302916575.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec302916575
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec302916575.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec302916575 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2337600945/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2337600945.dir/build.make CMakeFiles/cmTryCompileExec2337600945.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2337600945
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2337600945.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2337600945 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -243,24 +243,24 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec302916575' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec302916575 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2337600945' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2337600945 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec302916575/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec302916575.dir/build.make CMakeFiles/cmTryCompileExec302916575.dir/build]
-  ignore line: [make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec302916575]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec302916575.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec302916575 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2337600945/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2337600945.dir/build.make CMakeFiles/cmTryCompileExec2337600945.dir/build]
+  ignore line: [make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2337600945]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2337600945.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2337600945 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -270,8 +270,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec302916575' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec302916575 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2337600945' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2337600945 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec302916575] ==> ignore
+    arg [cmTryCompileExec2337600945] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec302916575.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2337600945.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -327,18 +327,18 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1748654296/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1748654296.dir/build.make CMakeFiles/cmTryCompileExec1748654296.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1748654296.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec1748654296.dir/feature_tests.cxx.o -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec1748654296
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1748654296.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1748654296.dir/feature_tests.cxx.o  -o cmTryCompileExec1748654296 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2126333699/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2126333699.dir/build.make CMakeFiles/cmTryCompileExec2126333699.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2126333699.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec2126333699.dir/feature_tests.cxx.o -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2126333699
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2126333699.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2126333699.dir/feature_tests.cxx.o  -o cmTryCompileExec2126333699 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -401,18 +401,18 @@ make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFi
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4246289668/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4246289668.dir/build.make CMakeFiles/cmTryCompileExec4246289668.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec4246289668.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec4246289668.dir/feature_tests.cxx.o -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec4246289668
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4246289668.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec4246289668.dir/feature_tests.cxx.o  -o cmTryCompileExec4246289668 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2213802390/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2213802390.dir/build.make CMakeFiles/cmTryCompileExec2213802390.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2213802390.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec2213802390.dir/feature_tests.cxx.o -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2213802390
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2213802390.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2213802390.dir/feature_tests.cxx.o  -o cmTryCompileExec2213802390 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -475,18 +475,18 @@ make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFi
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1828716033/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1828716033.dir/build.make CMakeFiles/cmTryCompileExec1828716033.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1828716033.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec1828716033.dir/feature_tests.cxx.o -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec1828716033
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1828716033.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1828716033.dir/feature_tests.cxx.o  -o cmTryCompileExec1828716033 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec926403393/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec926403393.dir/build.make CMakeFiles/cmTryCompileExec926403393.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec926403393.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec926403393.dir/feature_tests.cxx.o -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec926403393
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec926403393.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec926403393.dir/feature_tests.cxx.o  -o cmTryCompileExec926403393 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -547,17 +547,17 @@ make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFi
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if files pthread.h exist passed with the following output:
-Change Dir: /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp
+Change Dir: /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3398706918/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3398706918.dir/build.make CMakeFiles/cmTryCompileExec3398706918.dir/build
-make[1]: Entering directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
-/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3398706918.dir/CheckIncludeFiles.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3398706918.dir/CheckIncludeFiles.c.o   -c /home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
-Linking C executable cmTryCompileExec3398706918
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3398706918.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3398706918.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3398706918 -rdynamic 
-make[1]: Leaving directory `/home/localguest/Desktop/Neurons_part2/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1825182813/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1825182813.dir/build.make CMakeFiles/cmTryCompileExec1825182813.dir/build
+make[1]: Entering directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1825182813.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1825182813.dir/CheckIncludeFiles.c.o   -c /home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1825182813
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1825182813.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1825182813.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1825182813 -rdynamic 
+make[1]: Leaving directory `/home/localguest/Desktop/Neuron_prog/Two_Neurons/build/CMakeFiles/CMakeTmp'
 
 

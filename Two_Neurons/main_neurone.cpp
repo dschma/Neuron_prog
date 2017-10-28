@@ -2,7 +2,6 @@
 #include <iostream> 
 #include "constantes.hpp"
 #include <fstream>
-#include "network.hpp"
 #include <cassert>
 
 
@@ -39,9 +38,11 @@ int main()
 			}
 		}
 		
+		
 		simtime += dt;
 
 	};
 	
+	n1.affiche();
 	return 0;
 }

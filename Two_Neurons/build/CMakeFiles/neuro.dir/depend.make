@@ -3,7 +3,6 @@
 
 CMakeFiles/neuro.dir/main_neurone.cpp.o: ../constantes.hpp
 CMakeFiles/neuro.dir/main_neurone.cpp.o: ../main_neurone.cpp
-CMakeFiles/neuro.dir/main_neurone.cpp.o: ../network.hpp
 CMakeFiles/neuro.dir/main_neurone.cpp.o: ../neurone.hpp
 
 CMakeFiles/neuro.dir/neurone.cpp.o: ../constantes.hpp

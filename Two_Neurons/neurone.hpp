@@ -98,6 +98,14 @@ void pass_spike(int& t);
  * @param Neurone* : the neuron to which this is connected
  */
 void addConnection(Neurone* n);
+
+bool hasConnection(Neurone* n)
+{
+	if(target_neurons[0] == n)
+		return true;
+	return false;
+}
+
 	
 ////////////////////////////////Destructor///////////////////////////////	
 ~Neurone();
@@ -111,6 +119,7 @@ private:
 	int my_time;							//neuron specific clock in simulation steps
 	std::vector<double> spike_buffer; 		//Receives a spike
 	std::vector<Neurone*> target_neurons;	//Neurons it is connected to
+	
 };
 
 #endif

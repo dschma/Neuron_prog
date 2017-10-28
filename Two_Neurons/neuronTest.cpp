@@ -38,13 +38,39 @@ TEST(TwoNeurons, NoReceivedSpike)
 	EXPECT_EQ(0.0, n2.get_I_ext());
 	n1.addConnection(&n2);
 	int delay = 15;
+	bool spike(false);
 	for(int i(0); i<924+delay; ++i)
 	{
-		n1.update(1);
+		spike = n1.update(1);
+		if(spike)
+			n1.pass_spike(i);
 		n2.update(1);
 	}
 	//there was an spike from n1 but n2 has not yet received, so the membrane potential of n2 is still 0.0
 	EXPECT_EQ(0.0, n2.getPotential());
+	
+	
+}
+
+TEST(TwoNeurons, Receive_1_Spike)
+{
+	Neurone n1;
+	Neurone n2;
+	n1.set_ext_I(1.01);
+	//n2 has I_ext = 0.0 par defaut
+	EXPECT_EQ(0.0, n2.get_I_ext());
+	n1.addConnection(&n2);
+	int delay = 15;
+	bool spike(false);
+	for(int i(0); i<924+delay+1; ++i)
+	{
+		spike = n1.update(1);
+		if(spike)
+			n1.pass_spike(i);
+		n2.update(1);
+	}
+	//there was an spike from n1 but n2 has not yet received, so the membrane potential of n2 is still 0.0
+	EXPECT_GT(n2.getPotential(), 0.0);
 	
 	
 }

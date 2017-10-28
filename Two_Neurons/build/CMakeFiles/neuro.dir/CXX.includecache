@@ -17,14 +17,8 @@ constantes.hpp
 /home/localguest/Desktop/Neuron_prog/Two_Neurons/constantes.hpp
 fstream
 -
-network.hpp
-/home/localguest/Desktop/Neuron_prog/Two_Neurons/network.hpp
 cassert
 -
-
-/home/localguest/Desktop/Neuron_prog/Two_Neurons/network.hpp
-neurone.hpp
-/home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.hpp
 
 /home/localguest/Desktop/Neuron_prog/Two_Neurons/neurone.cpp
 neurone.hpp
